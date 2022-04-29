@@ -1,13 +1,43 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 24px;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+form {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  margin: 1.2rem 0 0.6rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: end;
+}
+
+.info span {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
+
+.info button {
+  font-size: 12px;
+  width: 8rem;
+  padding: auto;
+}
+
+.nes-btn .is-warning {
+  color: white;
 }

@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# Adivinar el Pokemon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![01](./public/screenshot-0.jpg)
 
-## Available Scripts
+Este proyecto tiene 3 milestones o entregas, no es necesario que cumplas todas para dar el proyecto por terminado, ajustalo a tus necesidades y conocimientos. Cada entrega se vuelve un poco más difícil.
 
-In the project directory, you can run:
+Podés clonarlo o usarlo directamentes desde [codesandbox](https://codesandbox.io/s/github/goncy/interview-challenges/tree/main/guess-pokemon).
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Base
+Nuestro cliente nos dio este repositorio listo para trabajar, usa la librería [NES.css](https://nostalgic-css.github.io/NES.css/) para estilos así que espera que uses los elementos provistos por la misma. También nos preparó un archivo [api.ts](./src/api.ts) con un método `random` que nos devuelve un Pokemon aleatorio para nuestra aplicación.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Entrega 1
+En esta primera entrega espera que al entrar a la página podamos ver la silueta de un Pokemon de manera aleatoria y al clickear adivinar mostremos la imágen real con el nombre del Pokemon.
 
-### `npm test`
+> Bonus: Mejorar la interfáz de la aplicación para que sea mas linda.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Entrega 2
+En esta segunda versión debemos cumplir los siguientes puntos:
 
-### `npm run build`
+* Luego de clickear el botón adivinar debemos también indicarle al usuario si acertó o no.
+* Agregar un botón de volver a jugar.
+* No tomar en cuenta espacios ni mayúsculas. ej: `mrmime`, `Mr. Mime`, `Mr MiMe` son válidos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Entrega 3
+Agregar un contador que persista luego de refrescar la página con la cantidad de aciertos y errores del usuario.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+Si te gusta mi contenido, seguime en [Twitter](https://twitter.gonzalopozzo.com), en [Twitch](https://twitch.gonzalopozzo.com), doname un [Cafecito](https://cafecito.gonzalopozzo.com) o volvete [sponsor en github](https://github.com/sponsors/goncy) ✨
